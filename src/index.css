@@ -20,7 +20,10 @@ body {
   margin: 0;
   padding: 0 1rem;
 }
-
+img {
+  margin-bottom: 1rem;
+  width: 100%;
+}
 /* Style the button and tell it not to grow */
 button {
   background-color: var(--primary);
@@ -84,4 +87,20 @@ the button and input when the browser is at least
   input+button {
     margin-left: 1rem;
   }
-}
+  .gallery {
+    column-count: 2;
+  }
+  }
+
+  @media (min-width: 1000px) {
+    .gallery {
+      column-count: 3;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .gallery {
+      column-count: 4;
+    }
+  }
+
