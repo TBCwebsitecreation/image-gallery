@@ -2,9 +2,11 @@ import React from 'react';
 
 const SearchForm = () => {
   return (
-    <div>
-      <h2>Search Form</h2>
-    </div>
+    <form className="form-horizontal">
+      <input placeholder="Search" type="text" name="searchString" required />
+      <input classname="categories" type = "text" placeholder="Categories" name="categories" />
+      <button type="submit">Submit</button>
+    </form>
   );
 };
 
