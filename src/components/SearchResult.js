@@ -1,9 +1,5 @@
 import React from 'react';
 
-
-
-
-
 const SearchResult = ({ images }) => {
 	// return early if there are no images
 	if (!images) {
@@ -14,7 +10,7 @@ const SearchResult = ({ images }) => {
 		<div className='gallery'>
 			{images.map((image) => (
 				<div key={image.id} className='pics'>
-					{/* <img src={image.image.webformatURL} alt="images from pixabay" /> */}
+					<img src={image.webformatURL} alt='images from pixabay' />
 				</div>
 			))}
 		</div>
