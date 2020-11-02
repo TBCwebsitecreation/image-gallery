@@ -13,9 +13,8 @@ const NavigationBar = () => {
 			<div className='mr-auto'>
 				<Link to='/about'>About</Link>
 				<Link to='/photos'>Photos</Link>
-				<Link to='/vetors'>Vectors</Link>
+				<Link to='/vectors'>Vectors</Link>
 				<Link to='/illustrations'>Ilustrations</Link>
-				<Link to='/videos'>Videos</Link>
 				<Link to='/editors'>Editor's Choice</Link>
 			</div>
 		</Navbar>

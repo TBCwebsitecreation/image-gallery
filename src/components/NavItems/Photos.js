@@ -1,12 +1,15 @@
 import React from 'react';
+import './gallery.css'
 
 const Photos = ({ popular }) => {
 	return (
-		<div className="gallery">
-			<h1>Popular Pictures</h1>
-			{popular.map((popularone, index) => (
-				<img src = {popularone.webformatURL} alt="popular images" />
-			))}
+		<div>
+			<h2 className="heading">Popular Pictures</h2>
+			<div className='gallery'>
+				{popular.map((popularone, index) => (
+					<img src={popularone.webformatURL} alt='popular images' />
+				))}
+			</div>
 		</div>
 	);
 };

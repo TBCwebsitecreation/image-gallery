@@ -13,3 +13,12 @@
   border: 1px solid #FFC106;
   
 }
+
+h2 {
+  background-color: brown;
+  background: linear-gradient(90deg, #f7797d, #fbd786, #c6ffdd);
+  box-shadow: 0 2px 1px #777;
+  padding: 2rem 0;
+  padding-left: 45%;
+  color: grey;
+}
