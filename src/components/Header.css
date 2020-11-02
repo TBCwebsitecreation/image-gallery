@@ -1,0 +1,11 @@
+.header {
+  padding: 180px;
+  text-align: center;
+  background: #1abc9c;
+  background-image: url("https://img.freepik.com/free-vector/abstract-technology-background-science-connecting-technology_42705-96.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+}

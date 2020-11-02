@@ -1,4 +1,5 @@
 import React from 'react';
+import './NavItems/gallery.css';
 
 const SearchResult = ({ images }) => {
 	// return early if there are no images
