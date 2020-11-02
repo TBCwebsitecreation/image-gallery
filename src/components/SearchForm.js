@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchForm = (props) => {
 	const {
-		handleSubmit,handleChange,searchString,categoryChange,categoryString,} = props;
+		handleSubmit,handleChange,searchString} = props;
 	return (
 		<form onSubmit={handleSubmit} className='form-horizontal'>
 			<input
@@ -13,20 +13,6 @@ const SearchForm = (props) => {
 				onChange={handleChange}
 				value={searchString}
 			/>
-			<div>
-				<input
-					classname='categories'
-					type='text'
-					placeholder='Categories'
-					name='categories'
-					onChange={categoryChange}
-					value={categoryString}
-					
-					
-				/>
-				
-			</div>
-
 			<button type='submit'>Submit</button>
 		</form>
 	);
