@@ -6,6 +6,7 @@ import NavBar from './components/NavItems/NavigationBar';
 import About from './components/NavItems/About';
 import Photos from './components/NavItems/Photos';
 import { Route, Redirect } from 'react-router-dom';
+import './App.css'
 
 function App() {
 	const [images, setImages] = useState();

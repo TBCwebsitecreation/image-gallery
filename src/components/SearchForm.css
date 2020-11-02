@@ -1,0 +1,10 @@
+.form-horizontal {
+  /* background-color: brown; */
+  /* width: 100%; */
+  font-size: x-large;
+  background: linear-gradient(90deg, #f7797d, #fbd786, #c6ffdd);
+  box-shadow: 0 2px 1px #777;
+  padding: 2rem 0;
+  padding-left: 40%;
+  
+}
